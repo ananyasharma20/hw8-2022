@@ -79,10 +79,10 @@ header h1{
 }
 
 #intro{
-    font-size: 50%;
+    font-size: 30px;
     text-align: center;
-    font-size: 25px;
     border: none;
+    margin-top: 25px;
 }
 
 .grid_container{
