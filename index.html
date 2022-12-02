@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BingeWatch</title>
+</head>
+<body>
+    <a class = "skip" href="#skip">Skip to Main Content</a><br>
+    <header>
+        <img src="images/popcorn.png" alt="bag with popcorn label that has popcorn in it" id = "logo">
+        <h1>BingeWatch</h1>
+        <nav>
+            <ul class="nav_section">
+                <li class="nav_item"><a id="skip" href="netflix.html">Netflix</a></li>
+                <li class="nav_item"><a id="hulu" href="hulu.html">Hulu</a></li>
+                <li class="nav_item"><a id="prime" href="prime.html">Prime</a></li>
+                <!-- <li class="nav_item"><a id="disney" href="disney.html">Disney</a></li> -->
+            </ul>
+         </nav>
+    </header>
+    <main>
+        <h1>
+            <p id="intro">Select a streaming platform to see entertainment suggestions!</p><br>
+            <div class="home_info">
+            <img src="images/netflix/logo.png" alt="netflix logo">
+            <button onclick="clickinner('netflix')" class="home-button">Netflix</button> 
+            </div>
+            <div class="home_info">
+                <img src="images/hulu/logo.png" alt="hulu logo">
+                <button onclick="clickinner('hulu')" class="home-button">Hulu</button>
+                </div>
+            <div class="home_info">
+            <img src="images/prime/logo.jpg" alt="amazon prime video logo">
+            <button onclick="clickinner('prime')" class="home-button">Prime</button>
+            </div>
+        </h1>
+    </main>
+    <footer>
+        <p>University of Michigan<br/>
+           Ananya Sharma, Kirtan Patel - SI 339 Final Project</p>
+      </footer>
+    <script src="js/script.js"></script>  
+</body>
+</html>

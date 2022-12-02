@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <a class = "skip" href="#skip">Skip to Main Content</a><br>
+    <header>
+        <img src="images/popcorn.png" alt="popcorn" id = "logo">
+        <h1>BingeWatch</h1>
+        <nav>
+            <ul class="nav_section">
+                <li class="nav_item"><a id="skip" href="index.html">Homepage</a></li>
+                <li class="nav_item"><a id="hulu" href="hulu.html">Hulu</a></li>
+                <li class="nav_item"><a id="prime" href="prime.html">Prime</a></li>
+                <!-- <li class="nav_item"><a id="disney" href="disney.html">Disney</a></li> -->
+            </ul>
+         </nav>
+     </header>
+        <main>
+            <div class="grid_container" id="netflix_container">
+            <div class="suggestion_info">
+            <img class="grid_child" src="images/netflix/stranger_things.jpg" alt="stranger things">
+            <div class="button_info">
+            <button class="grid_child" onclick="playPreview('stranger_things')">Play Preview  <span class="screen-reader-only">(opens in a new tab)</span></button>
+            </div>
+            <p tabindex="0">When Joyce's 12-year-old son Will goes missing, she launches a terrifying investigation 
+            into his disappearance with local authorities. As they search for answers, they unravel a 
+            series of extraordinary mysteries involving secret government experiments, unnerving supernatural 
+            forces and a very unusual little girl.</p>
+            </div>
+            <div class="suggestion_info">
+            <img class="grid_child" src="images/netflix/blacklist.jpg" alt="blacklist">
+            <div class="button_info">
+                <button class="grid_child" onclick="playPreview('blacklist')">Play Preview <span class="screen-reader-only">(opens in a new tab)</span></button>
+            </div>
+            <p tabindex="0">A new FBI profiler, Elizabeth Keen, has her entire life uprooted when a mysterious criminal, 
+            Raymond Reddington, who has eluded capture for decades, turns himself in and insists on speaking only to her.</p>
+            </div>
+            <div class="suggestion_info">
+            <img class="grid_child" src="images/netflix/breaking_bad.jpg" alt="breaking bad">
+            <div class="button_info">
+            <button class="grid_child" onclick="playPreview('breaking_bad')">Play Preview  <span class="screen-reader-only">(opens in a new tab)</span></button>
+            </div>
+            <p tabindex="0">The mishaps of two drug dealers trying to survive in the complicated and corrupted world of crime, 
+            leading them from the point of working for money to working to survive; all starting with an honest 
+            high school teacher trying to make money for his family after finding out cancer hadn't left him much time.</p>
+            </div>
+            <div class="suggestion_info">
+            <img class="grid_child" src="images/netflix/obx.jpg" alt="outer banks">
+            <div class="button_info">
+            <button class="grid_child" onclick="playPreview('outer_banks')">Play Preview  <span class="screen-reader-only">(opens in a new tab)</span></button>
+            </div>
+            <p tabindex="0">The show follows a group of Pogue teenagers who live at The Cut, and are determined to find out 
+                what happened to the missing father of the group's ringleader, John B. Along the way, they discover
+                a legendary treasure that is tied to John B's father.</p>
+            </div>
+            <div class="suggestion_info">
+            <img class="grid_child" src="images/netflix/vampire_diaries.jpg" alt="vampire diaries">
+            <div class="button_info">
+            <button class="grid_child" onclick="playPreview('vampire_diaries')">Play Preview  <span class="screen-reader-only">(opens in a new tab)</span></button>
+            </div>
+            <p tabindex="0">The series is set in the fictional town of Mystic Falls, Virginia, a town charged with supernatural history. 
+            It follows the life of Elena Gilbert, a teenage girl who has just lost both parents in a car accident, 
+            as she falls in love with a 162-year-old vampire named Stefan Salvatore.</p>
+            </div>
+            <div class="suggestion_info">
+            <img class="grid_child" src="images/netflix/white_collar.jpg" alt="white collar">
+            <div class="button_info">
+            <button class="grid_child" onclick="playPreview('white_collar')" >Play Preview  <span class="screen-reader-only">(opens in a new tab)</span></button>
+            </div>
+            <p tabindex="0">A white-collar criminal agrees to help the FBI catch other white-collar criminals using his expertise as 
+            an art and securities thief, counterfeiter, and conman. The unlikely partnership between charming con 
+            artist Neal Caffrey and straight-man FBI agent Peter Burke.</p>
+            </div>
+            <div class="suggestion_info">
+            <img class="grid_child" src="images/netflix/baking_show.jpg" alt="great british baking show">
+            <div class="button_info">
+            <button class="grid_child" onclick="playPreview('british_baking')">Play Preview  <span class="screen-reader-only">(opens in a new tab)</span></button>
+            </div>
+            <p tabindex="0">Bakers attempt three challenges each week trying to impress the judges enough to go through to the next 
+            round and eventually are crowned Britain's best amateur baker. A group of British home bakers are convened 
+            for a baking competition.</p>
+            </div>
+            <div class="suggestion_info">
+            <img class="grid_child" src="images/netflix/big_time_rush.jpg" alt="big time rush">
+            <div class="button_info">
+            <button class="grid_child" onclick="playPreview('big_time_rush')">Play Preview <span class="screen-reader-only">(opens in a new tab)</span></button>
+            </div>
+            <p tabindex="0">Four hockey players from Minnesota aspire to become a boyband. Kendall, Logan, Carlos, and James embark on a 
+            life-changing journey and face challenges along the way. Four hockey players from Minnesota aspire to become a boyband.</p>
+            </div>
+            <div class="suggestion_info">
+            <img class="grid_child" src="images/netflix/icarly.jpg" alt="icarly">
+            <div class="button_info">
+            <button class="grid_child" onclick="playPreview('icarly')">Play Preview  <span class="screen-reader-only">(opens in a new tab)</span></button>
+            </div>
+            <p tabindex="0">When Carly and her best friend Sam improvise comedy at a school talent show audition, tech-savvy Freddie records 
+            it and posts it online without informing them. After seeing the girls' strong chemistry and banter, 
+            the online audience clamors for more, and thus they decide to create iCarly.</p>
+            </div>
+            </div>
+        </main>
+        <footer>
+            <p>University of Michigan<br/>
+               Ananya Sharma, Kirtan Patel - SI 339 Final Project</p>
+          </footer>
+        <script src="js/script.js"></script> 
+</body>
+</html>

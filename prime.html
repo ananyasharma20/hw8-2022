@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <a class = "skip" href="#skip">Skip to Main Content</a><br>
+    <header>
+        <img src="images/popcorn.png" alt="popcorn" id = "logo">
+        <h1>BingeWatch</h1>
+    <nav>
+        <ul class="nav_section">
+            <li class="nav_item"><a id="skip" href="index.html">Homepage</a></li>
+            <li class="nav_item"><a id="hulu" href="netflix.html">Netflix</a></li>
+            <li class="nav_item"><a id="prime" href="hulu.html">Hulu</a></li>
+            <!-- <li class="nav_item"><a id="disney" href="disney.html">Disney</a></li> -->
+        </ul>
+     </nav>
+    </header>
+    <main>
+        <div class="grid_container" id="prime_container">
+        <div class="suggestion_info">
+        <img id="clifford" class="grid_child" src="images/prime/clifford.jpg" alt="clifford">
+        <div class="button_info">
+        <button class="grid_child" id="play-button" onclick="playPreview('clifford')">Play Preview</button>
+        </div>
+        <p tabindex="0">When Emily Elizabeth meets a magical animal rescuer who gives her a little red puppy, 
+            she never anticipated waking up to find a giant, 10-foot hound in her small New York City apartment. 
+            With her single mother away on business, Emily and her fun but impulsive uncle set out on an 
+            adventure that takes a bite out of the Big Apple.</p>
+        </div>
+        <div class="suggestion_info">
+        <img class="grid_child" src="images/prime/dora.jpg" alt="dora the explorer">
+        <div class="button_info">
+        <button class="grid_child" id="play-button" onclick="playPreview('dora')">Play Preview</button>
+        </div>
+        <p tabindex="0">"Dora the Explorer" features the adventures of young Dora, her monkey Boots, Backpack 
+            and other animated friends. In each episode, viewers join Dora on an adventure in an animated 
+            world set inside a computer. The titular character seeks viewers' help in solving a puzzle or 
+            mystery she faces in each episode.</p>
+        </div>
+        <div class="suggestion_info">
+        <img class="grid_child" src="images/prime/friday_night_lights.jpg" alt="friday night lights">
+        <div class="button_info">
+        <button class="grid_child" id="play-button" onclick="playPreview('friday_night_lights')">Play Preview</button>
+        </div>
+        <p tabindex="0">A small, turbulent town in Texas obsesses over their high school football team to an unhealthy 
+            degree. When the star tailback, Boobie Miles, is seriously injured during the first 
+            game of the season, all hope is lost, and the town's dormant social problems begin to flare up. 
+            It is left to the inspiring abilities of new coach Gary Gaines to instill 
+            in the other team members a sense of self-respect and honor.</p>
+        </div>
+        <div class="suggestion_info">
+        <img class="grid_child" src="images/prime/hunger_games.jpg" alt="hunger games">
+        <div class="button_info">
+        <button class="grid_child" id="play-button" onclick="playPreview('hunger_games')">Play Preview</button>
+        </div>
+        <p tabindex="0">In what was once North America, the Capitol of Panem maintains its hold on its 12 
+            districts by forcing them each to select a boy and a girl to 
+            compete in a nationally televised event called the Hunger Games. Every citizen 
+            must watch as the youths fight to the death until only one remains. District 12 
+            Tribute Katniss Everdeen has little to rely on in an arena where she must weigh survival against love.</p>
+        </div>
+        <div class="suggestion_info">
+        <img class="grid_child" src="images/prime/manifest.jpg" alt="manifest">
+        <div class="button_info">
+        <button class="grid_child" id="play-button" onclick="playPreview('manifest')">Play Preview</button>
+        </div>
+        <p tabindex="0">Manifest is an American supernatural drama television series created by Jeff Rake that 
+            premiered on September 24, 2018, on NBC. It centers on the passengers and crew of a commercial 
+            airliner who suddenly reappear after being presumed dead for five and a half years.</p>
+        </div>
+        <div class="suggestion_info">
+        <img class="grid_child" src="images/prime/psych.jpg" alt="psych">
+        <div class="button_info">
+        <button class="grid_child" id="play-button" onclick="playPreview('psych')">Play Preview</button>
+        </div>
+        <p tabindex="0">When a novice sleuth convinces the police he has psychic powers, 
+            he and his reluctant best friend are hired on as consultants to help solve complicated cases. 
+            Think you are psychic? Shawn Spencer (James Roday) makes his living pretending to be.</p>
+        </div>
+        <div class="suggestion_info">
+        <img class="grid_child" src="images/prime/spongebob.jpg" alt="spongebob">
+        <div class="button_info">
+        <button class="grid_child" id="play-button" onclick="playPreview('spongebob')">Play Preview</button>
+        </div>
+        <p tabindex="0">The misadventures of a talking sea sponge who works at a fast food restaurant, 
+            attends a boating school, and lives in an underwater pineapple. The character-driven 
+            cartoon chronicles the nautical and often nonsensical adventures of SpongeBob, 
+            an incurably optimistic and earnest sea sponge, and his underwater friends.</p>
+        </div>
+        <div class="suggestion_info">
+        <img class="grid_child" src="images/prime/suits.jpg" alt="suits">
+        <div class="button_info">
+        <button class="grid_child" id="play-button" onclick="playPreview('suits')">Play Preview</button>
+        </div>
+        <p tabindex="0">Set at a fictional New York City law firm, it follows Mike Ross (Patrick J. Adams), 
+            who uses his eidetic memory to talk his way into a job as an associate working for 
+            successful closer Harvey Specter (Gabriel Macht), despite being a college dropout who never attended law school.</p>
+        </div>
+        <div class="suggestion_info">
+        <img class="grid_child" src="images/prime/teen_wolf.jpg" alt="teen wolf"> 
+        <div class="button_info">
+        <button class="grid_child" id="play-button" onclick="playPreview('teen_wolf')">Play Preview</button>
+        </div>
+        <p tabindex="0">High school student Scott McCall gets bitten by a werewolf and has his whole life turned around. 
+            With his best friend Stiles Stilinski by his side they work through these changes and help save 
+            beacon hills from various different supernatural threats.</p>
+        </div>
+        </div>
+    </main>
+    <footer>
+        <p>University of Michigan<br/>
+           Ananya Sharma, Kirtan Patel - SI 339 Final Project</p>
+      </footer>
+    <script src="js/script.js"></script> 
+</body>
+</html>
