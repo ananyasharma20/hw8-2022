@@ -210,11 +210,6 @@ button{
 
 
 @media screen and (min-width: 700px){
-    .home_info{
-        grid-template-columns: repeat(2,1fr);
-        align-items: center;
-    }
-
     .grid_container{
         grid-template-columns: repeat(2,1fr);
         gap: 75px;
