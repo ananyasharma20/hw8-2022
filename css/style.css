@@ -238,7 +238,7 @@ img {
 }
 
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 850px){
 
     .grid_container{
         grid-template-columns: repeat(2,1fr);
@@ -286,7 +286,7 @@ img {
     }
 }
 
-@media screen and (min-width: 900px){
+@media screen and (min-width: 1000px){
     .flex_container, .grid_container{
         margin-top: 75px;
     }
